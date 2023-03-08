@@ -43,6 +43,7 @@ rt_option(INTERNAL_STRACE "Debug syscalls" OFF)
 rt_option(DEBUG "Enable debugging" OFF)
 
 include_directories($ENV{KEYSTONE_SDK_DIR}/include/edge)
+include_directories($ENV{KEYSTONE_SDK_DIR}/include/shared)
 include_directories(tmplib)
 include_directories(include)
 
