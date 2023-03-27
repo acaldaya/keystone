@@ -1,4 +1,4 @@
-#include "../util/string.c"
+#include "../string.c"
 
 #include "mock.h"
 
